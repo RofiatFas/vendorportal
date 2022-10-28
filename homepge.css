@@ -1,0 +1,153 @@
+/* Font sizes */
+.fs-12{
+    font-size: 12px !important;
+}
+.fs-14{
+	font-size: 14px !important;
+}
+.fs-11{
+	font-size: 11px !important;	
+}
+
+
+/* Buttons Styling */
+.btn2{
+	color: #09A8C5 !important;
+	border-radius: 2px solid #09A8C5 !important;
+}
+.btn1{
+	background-color: #09A8C5 !important;
+}
+
+
+/* Background Styling */
+.bg1{
+    background-color: #03a9f5 !important;
+}
+.bg2{
+	background-color: #DADADA !important; 
+}
+.bg3{
+	background-color: #ededed;
+}
+
+
+/* navbr Styling */
+.dp-ml{
+	margin-left: -100px !important;
+}
+.navbg{
+	background-color: #09A8C5 !important;
+}
+
+
+/* Dshbord Styling */
+.color-nv{
+	color: #DADADA !important;
+}
+.color1{
+	background-color: #09A8C54D;
+}
+.color2{
+	background-color: #F3AA184D;
+}
+.color3{
+	background-color: #5BD3664D;
+}
+.color4{
+	background-color: #EA3D2F4D;
+}
+.chart{
+    width:50%;max-width:200px;
+}
+
+
+/* Request Styling */
+.bid1{
+	background-color: #DADADA; 
+	/* border-radius: 5px; */
+	 max-width: 18rem !important;
+}
+.cardwidth{
+	max-width: 18rem;
+}
+.filter{
+	background-color: #DADADA;
+	border-radius: 2px solid  #09A8C5;
+	/* border-color:; */
+}
+
+.link{
+	color: black;
+	text-decoration: none;
+}
+
+/* notifiction Styling */
+.delbtn{
+	margin-top: -40px; 
+	margin-right: 10px;
+}
+
+/* Report Styling */
+.contact-form{
+	margin-left: 300px;
+	/* margin-top: 50px; */
+}
+.formcon{
+	width: 98.5% !important;
+}
+.con-title{
+	margin-top: 50px;
+}
+@media (max-width: 600px) {
+    .contact-form {
+        align-items: left;
+        justify-content: left;
+        text-align: left;
+		font-size: 12px;
+		margin-left: 10px;
+    }
+	.formcon{
+		width: 97% !important;
+	}
+	.dp-ml{
+		margin-left: 5px !important;
+	}
+
+	/* Request2 */
+   /* .bid-detils{
+	height: 20vh !important;
+   }
+   .bid-btns{
+	margin-top: 20px !important;
+   } */
+}
+
+/* Compny Profile Styling */
+.line{
+   /* width: 6.9cm;  */
+   border:  black; 
+   background-color: black; 
+   opacity: 1;
+}
+
+/* Change Password Styling */
+.passwordform{
+	width: 50% !important;
+}
+.passwordform-btn{
+	justify-content: right;
+	margin-right: 500px !important;
+}
+
+/* Request2 Stylin */
+.bid-btns{
+	margin-top: -10px;
+}
+.bid-detils{
+	background-color: #DADADA;
+}
+.accord-tb{
+	border: 1px solid #DADADA;
+	width: 98%;
+}

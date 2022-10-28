@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepge.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Vendor-Portal-(Codeware)</title>
+</head>
+<body>
+   
+        <!-- Navbar Strt -->
+
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><i class="fa fa-fw fa-home mx-2"></i>VENDOR PORTAL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-plus-circle text-white mx-2"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Waybill</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Invoice</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Payment Reciept</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Certificate of<br> Completion</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-white" href="dd.html">Add new user</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link" href="notifiction.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-bell text-white mx-2"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item dropdown mx-2">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa fa-user text-white mx-2"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-dark text-white dp-ml" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-white" href="compnyprofile.html">Company Profile</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-white" href="profile.html">User Profile</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-white" href="chngepssword.html">Change Password</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item text-white" href="index.html">Sign Out</a></li>
+                    </ul>
+                  </li>
+              </div>
+            </div>
+          </nav>
+        <!-- Navbar End -->
+
+        <!-- Second Nav -->
+        <div class="second-nav navbg">
+            <div class="container-fluid">
+              <div class="navbar navbar-expand-lg navbar-secondary">
+                <button class="navbar-toggler menu-navs text-white float-end my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav w-100 justify-content-between">
+                    <li class="nav-item">
+                      <a class="nav-link color-nv fw-600" aria-current="page" href="#">DASHBOARD</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link color-nv" aria-current="page" href="request.html">REQUEST FOR QOUTES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link color-nv" href="purchase.html">PURCHASE ORDER</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link color-nv" href="issue.html">ISSUE RESOLUTION</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link color-nv" href="#">REPORT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active text-white" href="profile.html">PROFILE</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+
+          <!-- Personal Information -->
+          <div class="container-fluid bg2">
+            <h5 class="p-3">Add New user</p>
+          </div> 
+
+
+          <div class="container-fluid mb-5 bg2 mx-2 rounded formcon"> 
+            <div class="form mb-2 d-flex-justify-content-center">
+             <h5 class="p-3">New user creation request form</h5>
+        
+               <form class="formBox mb-50 d-flex-justify-content-center p-3 mt-2">
+
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-1 col-form-label fs-11">Gender:</label>
+                    <div class="col-sm-3">
+                      <select id="inputState" class="form-select border-1 border-dark bg2">
+                          <option selected></option>
+                          <option>...</option>
+                        </select>
+                    </div>
+                    <label for="inputPassword3" class="col-sm-1 col-form-label fs-11">User&nbsp;Permission&nbsp;Group:</label>
+                    <div class="col-sm-3">
+                      <select id="inputState" class="form-select border-1 border-dark bg2">
+                          <option selected></option>
+                          <option>...</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-1 col-form-label fs-11">Last&nbsp;Name:</label>
+                    <div class="col-sm-3">
+                      <input type="email" class="form-control border-1 border-dark bg2" id="inputEmail3">
+                    </div>
+                    <label for="inputPassword3" class="col-sm-1 col-form-label fs-11">First&nbsp;name:</label>
+                    <div class="col-sm-3">
+                      <input type="password" class="form-control border-1 border-dark bg2" id="inputPassword3">
+                    </div>
+                    <label for="inputPassword3" class="col-sm-1 col-form-label fs-11">Middle&nbsp;Name:</label>
+                    <div class="col-sm-3">
+                      <input type="password" class="form-control border-1 border-dark bg2" id="inputPassword3">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-1 col-form-label fs-11">Telephone:</label>
+                    <div class="col-sm-3">
+                      <input type="email" class="form-control border-1 border-dark bg2" id="inputEmail3">
+                    </div>
+                    <label for="inputPassword3" class="col-sm-1 col-form-label fs-11">Job Title:</label>
+                    <div class="col-sm-3">
+                      <input type="password" class="form-control border-1 border-dark bg2" id="inputPassword3">
+                    </div>
+                    <label for="inputPassword3" class="col-sm-1 col-form-label fs-11">Manager:</label>
+                    <div class="col-sm-3">
+                      <input type="password" class="form-control border-1 border-dark bg2" id="inputPassword3">
+                    </div>
+                </div>
+  
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-1 col-form-label fs-11">Requested&nbsp;By:</label>
+                    <div class="col-sm-3">
+                      <input type="email" class="form-control border-1 border-dark bg2" id="inputEmail3">
+                    </div>
+                    <label for="inputPassword3" class="col-sm-1 col-form-label fs-11">User&nbsp;Type:</label>
+                    <div class="col-sm-3">
+                      <input type="password" class="form-control border-1 border-dark bg2" id="inputPassword3">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-1 col-form-label fs-11">Company&nbsp;Email:</label>
+                    <div class="col-sm-3">
+                      <input type="email" class="form-control border-1 border-dark bg2" id="inputEmail3">
+                    </div>
+                    <label for="inputPassword3" class="col-sm-1 col-form-label fs-11">Company&nbsp;Name:</label>
+                    <div class="col-sm-3">
+                      <input type="password" class="form-control border-1 border-dark bg2" id="inputPassword3">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="inputEmail3" class="col-sm-1 col-form-label fs-11">User&nbsp;Email:</label>
+                    <div class="col-sm-3">
+                      <input type="email" class="form-control border-1 border-dark bg2" id="inputEmail3">
+                    </div>
+                    <label for="inputPassword3" class="col-sm-1 col-form-label fs-11">Company&nbsp;ID:</label>
+                    <div class="col-sm-3">
+                      <input type="password" class="form-control border-1 border-dark bg2" id="inputPassword3">
+                    </div>
+                </div>
+     
+                <div>
+                  <button type="submit" class="btn btn-primary btn1 mb-5 shadow mt-2 border-0 fs-12">Request User Creation</button>
+                </div>
+              </form> 
+            </div>
+          </div> 
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

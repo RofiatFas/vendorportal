@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepge.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Vendor-Portal-(Codeware)</title>
+</head>
+<body>
+   
+        <!-- Navbar Strt -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fa fa-fw fa-home mx-2"></i>VENDOR PORTAL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown mx-2">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa fa-plus-circle text-white mx-2"></i>
+                  </a>
+                  <ul class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Waybill</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Invoice</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Payment Reciept</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Certificate of<br> Completion</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white" href="dd.html">Add new user</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown mx-2">
+                  <a class="nav-link" href="notifiction.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa fa-bell text-white mx-2"></i>
+                  </a>
+                </li>
+                <li class="nav-item dropdown mx-2">
+                  <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fa fa-user text-white mx-2"></i>
+                  </a>
+                  <ul class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item text-white" href="compnyprofile.html">Company Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white" href="profile.html">User Profile</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white" href="chngepssword.html">Change Password</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-white" href="index.html">Sign Out</a></li>
+                  </ul>
+                </li>
+            </div>
+          </div>
+        </nav>
+      <!-- Navbar End -->
+
+        <!-- Second Nav -->
+        <div class="second-nav navbg">
+            <div class="container-fluid">
+              <div class="navbar navbar-expand-lg navbar-secondary">
+                <button class="navbar-toggler menu-navs text-white float-end my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav w-100 justify-content-between">
+                    <li class="nav-item">
+                      <a class="nav-link active text-white fw-600" aria-current="page" href="#">DASHBOARD</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" aria-current="page" href="request.html">REQUEST FOR QOUTES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="purchase.html">PURCHASE ORDER</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="issue.html">ISSUE RESOLUTION</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">REPORT</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="profile.html">PROFILE</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Activity Cues Strt -->
+          <div class="container-fluid">
+            <div class="row">
+              <h5 class="mb-2 mx-2">Activity Cues</h5>
+              <div class="col-sm-12 col-md-8">
+                <div class="row mb-2">
+                  <div class="col-sm-3 ">
+                    <div class="card border-0">
+                      <div class="card-body color1">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-xmark"></i><span  class="fw-600 fs-2">54</span></h5>
+                        <p class="card-text">Quotes</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card border-0">
+                      <div class="card-body  color2">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-xmark"></i><span  class="fw-600 fs-2">54</span></h5>
+                        <p class="card-text">Pending Quotes</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card border-0 ">
+                      <div class="card-body color3">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-xmark"></i><span  class="fw-600 fs-2">54</span></h5>
+                        <p class="card-text">Approved Quotes</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card border-0 ">
+                      <div class="card-body color4">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-xmark"></i><span  class="fw-600 fs-2">54</span></h5>
+                        <p class="card-text">Rejected Quotes</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="card border-0 ">
+                      <div class="card-body color1">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-xmark"></i><span  class="fw-600 fs-2">54</span></h5>
+                        <p class="card-text">Purchase Orders</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card border-0 ">
+                      <div class="card-body color2">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-xmark"></i><span  class="fw-600 fs-2">54</span></h5>
+                        <p class="card-text">Opened Purchase Orders</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card border-0 ">
+                      <div class="card-body color3">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-xmark"></i><span  class="fw-600 fs-2">54</span></h5>
+                        <p class="card-text">Opened Purchase Orders</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="card border-0">
+                      <div class="card-body color4">
+                        <h5 class="card-title"><i class="fa-solid fa-circle-xmark"></i><span  class="fw-600 fs-2">54</span></h5>
+                        <p class="card-text">Closed Purchase Orders</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-4">
+                <div class="card shadow bg-white" height="206">
+                  <div class="card-body">
+                    <div class="notifiction-text">
+                      <p class="mx-1 fs-12"> <i class="fa-solid fa-message mx-3 text-primary"></i>Vendor portal <span class="fw-bold fs-6">.</span> now</p>
+                      <h4 class="mx-5 fs-6">New Notification</h4>
+                      <p class="mx-5 fs-12">Do ullamco ex velit anim do proident exercitation et anim tempor. Lorem sunt deserunt labore non excepteur veniam enim quis officia magna anim... Do ullamco ex velit anim do proident exercitation et anim tempor. Lorem sunt deserunt labore non excepteur veniam enim quis officia magna anim... </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Supplier Start -->
+          <div class="container-fluid">
+            <div class="row">
+              <h5 class="mt-2">Supplier Compliance Stats</h5>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2"></div>
+            </div>
+          </div>
+
+
+
+          <!-- Recent Activities Start -->
+          <div class="container-fluid">
+            <div class="row">
+              <h5 class="mt-2 mb-3">Recent Activities</h5>
+              <div class="col-sm-12 col-md-8 text-dark">
+                <div class="table-responsive">
+                  <table class="table">
+                    <tr>
+                      <th>Activities</th>
+                      <th>Purchase Code</th>
+                      <th>Status</th>
+                      <th>Dates</th>
+                      <th>Bidding</th>
+                    </tr>
+                    <tr>
+                      <td class="text-black">Supplies of Stationaries<span class="fs-12"><br>JaneDoe</span></td>
+                      <td class="text-black-50">Ed12456</td>
+                      <td class="text-black-50">Pending</td>
+                      <td class="text-black-50">04/02/2022</td>
+                      <td class="text-black-50">$2,500</td>
+                    </tr>
+                    <tr>
+                      <td>Supplies of Printers<span class="fs-12"><br>JaneDoe</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <td>Supplies of Laptops<span class="fs-12"><br>JaneDoe</span></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+
+              <div class="col-sm-12 col-md-4">
+                <!-- Charts -->
+                <h5 class="mx-5 mt-1 ">Fill Rate Chart</h5>
+                <canvas id="myChart" class="mx-5 chart">canvas</canvas>
+            </div>
+            </div>
+          </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script> 
+
+    var ctx = document.getElementById('myChart');
+    var chart = new Chart(ctx, {
+      type: "pie",
+      data: {
+        labels: ['Red','Blue','Yellow'],
+        datasets: [{
+          label: 'First Dataset',
+          data: [300, 50, 100],
+          backgroundColor: [
+          'rgb(255, 99, 132)',
+          'rgb(54, 162, 235)',
+          'rgb(255, 205, 86)',
+          ]
+        }]
+      },
+      options: {
+        responsive: true,
+      },
+      plugin: {
+        legend: {
+          position: 'right',
+          
+        }
+      }  
+    })
+    
+//     var ctx = document.getElementById('myChart');
+//     var chart = new Chart(ctx, {
+//       type: 'pie',
+
+//        data = {
+//        labels: ['Red','Blue','Yellow'],
+//        datasets: [{
+//            label: 'First Dataset',
+//            data: [300, 50, 100],
+//            backgroundColor: [
+//                'rgb(255, 99, 132)',
+//                 'rgb(54, 162, 235)',
+//                 'rgb(255, 205, 86)'
+//     ],
+//            hoverOffset: 4,
+    
+//   }]
+// },
+// options: {
+//         responsive: true,
+//         legend: {
+//           position: 'left'
+//         }
+//       }
+
+//     })
+    // FillRate Chart SetUp
+//       const data = {
+//        labels: [
+//     'Red',
+//     'Blue',
+//     'Yellow',
+//   ],
+//   datasets: [{
+//     label: 'My First Dataset',
+//     data: [300, 50, 100],
+//     backgroundColor: [
+//       'rgb(255, 99, 132)',
+//       'rgb(54, 162, 235)',
+//       'rgb(255, 205, 86)'
+//     ],
+//     hoverOffset: 4,
+    
+//   }]
+// };
+
+
+// FillRate Chart Config
+// const config = {
+//   type: 'pie',
+//   data: data,
+// };
+
+// FillRate Chart render init block
+// const myChart = new Chart(
+// document.getElementById('myChart'),
+// config
+// );
+  
+    </script>
+</body>
+</html>
