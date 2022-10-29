@@ -35,7 +35,7 @@
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item text-white" data-bs-toggle="modal" href="#modal1">Certificate of<br> Completion</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item text-white" href="dd.html">Add new user</a></li>
+                    <li><a class="dropdown-item text-white" href="Addnewuser.html">Add new user</a></li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown mx-2">
@@ -47,12 +47,12 @@
                   <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       <i class="fa fa-user text-white mx-2"></i>
                   </a>
-                  <ul class="dropdown-menu bg-dark text-white" aria-labelledby="navbarDropdownMenuLink">
+                  <ul class="dropdown-menu bg-dark text-white dp-ml" aria-labelledby="navbarDropdownMenuLink">
                     <li><a class="dropdown-item text-white" href="compnyprofile.html">Company Profile</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item text-white" href="profile.html">User Profile</a></li>
                     <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item text-white" href="chngepssword.html">Change Password</a></li>
+                    <li><a class="dropdown-item text-white" href="Changepassword.html">Change Password</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item text-white" href="index.html">Sign Out</a></li>
                   </ul>
@@ -72,19 +72,19 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav w-100 justify-content-between">
                     <li class="nav-item">
-                      <a class="nav-link active text-white fw-600" aria-current="page" href="#">DASHBOARD</a>
+                      <a class="nav-link color-nv" aria-current="page" href="dshbord.html">DASHBOARD</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-light" aria-current="page" href="request.html">REQUEST FOR QOUTES</a>
+                      <a class="nav-link active text-white fw-600" aria-current="page" href="request.html">REQUEST FOR QOUTES</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-light" href="purchase.html">PURCHASE ORDER</a>
+                      <a class="nav-link color-nv" href="purchse.html">PURCHASE ORDER</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-light" href="issue.html">ISSUE RESOLUTION</a>
+                      <a class="nav-link color-nv" href="issue.html">ISSUE RESOLUTION</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-light" href="#">REPORT</a>
+                      <a class="nav-link color-nv" href="report.html">REPORT</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link text-light" href="profile.html">PROFILE</a>
@@ -100,9 +100,9 @@
           <div class="container-fluid bid-detils">
             <h5 class="p-3">Bid Invitation Details</p>
             <div class="float-end bid-btns">
-              <a href="#" type="button" class="btn btn-primary navbg shadow border-0 delbtn">Accept</a>
-              <a href="#" type="button" class="btn btn-primary bg-white btn2 shadow border-0 delbtn">Reject</a>
-              <a href="#" type="button" class="btn btn-primary navbg shadow border-0 delbtn">Submmit&nbsp;Purchase&nbsp;Quote</a>
+              <!-- <a href="#" type="button" class="btn btn-primary navbg shadow border-0 delbtn">Accept</a> -->
+              <a href="#" type="button" class="btn btn-primary bg-white btn2 shadow delbtn">Add Comment</a>
+              <a href="#" type="button" class="btn btn-primary shadow navbg border-0 delbtn">Submmit</a>
               <a href="#" type="button" class="btn btn-primary navbg shadow border-0 delbtn"><i class="fa-solid fa-print"></i></a>
               <a href="#" type="button" class="btn btn-primary navbg shadow border-0 delbtn"><i class="fa-solid fa-download"></i></a>
             </div> 
@@ -126,20 +126,20 @@
                               <td class="bg2" width="50">Office Use:</td>
                             </tr>
                             <tr>
-                              <td>Date: 20/03/2023</td>
-                              <td>PO Number:</td>
+                              <td contenteditable='true'>Date: 20/03/2023</td>
+                              <td contenteditable='true'>PO Number:</td>
                             </tr>
                             <tr>
-                              <td>Requester:</td>
-                              <td>Date:</td>
+                              <td contenteditable='true'>Requester:</td>
+                              <td contenteditable='true'>Date:</td>
                             </tr>
                             <tr>
-                              <td>Unit:</td>
-                              <td>Requisition Status: New | Pending | Submitted | Compared | Finalized</td>
+                              <td contenteditable='true'>Unit:</td>
+                              <td contenteditable='true'>Requisition Status: New | Pending | Submitted | Compared | Finalized</td>
                             </tr>
                             <tr>
-                              <td>Department:</td>
-                              <td></td>
+                              <td contenteditable='true'>Department:</td>
+                              <td contenteditable='true'></td>
                             </tr>
                           </tbody>
                         </table>
@@ -152,7 +152,7 @@
                                   <td class="bg2">Description</td>
                               </tr>
                               <tr style="height: 200px;">
-                                  <td class="bg-white"></td>
+                                  <td class="bg-white" contenteditable='true'></td>
                               </tr>
                           </tbody>
                         </table>
@@ -160,7 +160,8 @@
                   </div>
                 </div>
               </div>
-              <div class="accordion-item">
+
+              <div class="accordion-item mt-2">
                 <h2 class="accordion-header" id="headingTwo">
                     <!-- <i class="fa-sharp fa-solid fa-caret-down text-white"></i> -->
                   <button class="accordion-button collapsed border-0 shadow-none navbg text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -179,46 +180,46 @@
                                   <th>DESCRIPTION OF SERVICE OR MATERIAL</th>
                               </thead>
                             <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
                             </tr>
                             <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
                             </tr>
                             <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
                             </tr>
                             <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
                             </tr>
                             <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
                             </tr>
                             <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
                             </tr>
                             <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
+                              <td contenteditable='true'></td>
                             </tr>
           
                           </tbody>
@@ -228,72 +229,26 @@
                 </div>
               </div>
             </div>
-            
-              <div class="accordion-item">
+
+              <div class="accordion-item mt-2">
                 <h2 class="accordion-header" id="headingTwo">
                     <!-- <i class="fa-sharp fa-solid fa-caret-down text-white"></i> -->
                   <button class="accordion-button collapsed border-0 shadow-none navbg text-white fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    RFQ Line
+                    Upload File
                   </button>
                 </h2>
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body bg-light">
-                    <div class="table-responsive">
-                      <table class="table-bordered bg-white mx-3 accord-tb" >
-                          <tbody>
-                              <thead class="bg3">
-                                  <th>QUALITY </th>
-                                  <th>UNIT COST </th>
-                                  <th>TOTAL COST</th>
-                                  <th>DESCRIPTION OF SERVICE OR MATERIAL</th>
-                              </thead>
-                            <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-                            <tr>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-          
-                          </tbody>
-                        </table>
-                    </div>    
-                  </div>
+                    <div class="container-fluid bg-white rounded drag-area rounded-3 text-center col-lg-8 mt-5"> 
+                        <div class="form mb-2 d-flex-justify-content-center mb-5">
+                            <div class="icon"><i class="fas fa-cloud-upload-alt mt-5 mb-2 text-black-50 fs-1"></i></div>
+                            <header class="">Select a file or drag and drop here</header>
+                            <p class="text-black-50">JPG, PNG or PDF, file size no more than 10mb</p>
+                            <button class="bg-white p-2 mb-5 fs-14">Select File</button>
+                            <input type="file" hidden>
+                            </div>  
+                        </div>
+                    </div>
                 </div>
               </div>
             </div>
