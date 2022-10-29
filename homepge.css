@@ -17,6 +17,9 @@ html,body{
 .fnt-6{
 	font-weight: 600;
 }
+.fs-18{
+	font-size: 18px;
+}
 
 /* Buttons Styling */
 .btn2{
@@ -223,6 +226,24 @@ html,body{
   .download-tb{
 	width: 96%;
   }
+
+/* Modl Styling */
+  .comment-modl{
+	max-width: 50% !important;
+  }
+  .bckmodl-btn{
+	border: none !important;
+  }
+  .selectpurchsemodl{
+	width: 70% !important;
+  }
+.continue-btn{
+	border: none !important;
+	width: 30% !important;
+}
+.selectmodl{
+	width: 400px !important;
+}
 
   /* Btns Styling */
 
