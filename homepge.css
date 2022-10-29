@@ -140,6 +140,9 @@ html,body{
 		height: 100%;
 		overflow-x: hidden;
 	}
+	.reciept-table{
+		overflow-x: scroll;
+	}
 }
 
 /* Compny Profile Styling */
@@ -172,7 +175,7 @@ html,body{
 }
 
 /* Submit Request2 Styling */
-.drag-area button{
+.drag-area label{
     border: none;
     outline: none;
     color: #09a8c5;
