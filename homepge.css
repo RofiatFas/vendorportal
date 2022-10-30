@@ -143,9 +143,12 @@ html,body{
 		height: 100%;
 		overflow-x: hidden;
 	}
-	.reciept-table{
+	/* .reciept-table{
 		overflow-x: scroll;
 	}
+	.supply{
+		overflow-x: scroll;
+	} */
 }
 
 /* Compny Profile Styling */
@@ -241,9 +244,16 @@ html,body{
 	border: none !important;
 	width: 30% !important;
 }
+.addcomment-modl{
+	resize: none; 
+	height: 20vh;
+}
 /* .selectmodl{
 	width: 400px !important;
 } */
+.color-green{
+	color: #3ec94b ;
+}
 
   /* Btns Styling */
 
