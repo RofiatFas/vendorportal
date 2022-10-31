@@ -38,8 +38,8 @@
                     <li><a class="dropdown-item text-white" href="Addnewuser.html">Add new user</a></li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown mx-2">
-                  <a class="nav-link" href="notifiction.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="notifiction.html" id="navbarDropdown" role="button" aria-expanded="false">
                       <i class="fa fa-bell text-white mx-2"></i>
                   </a>
                 </li>
@@ -102,46 +102,48 @@
          </div>
 
          <div class="container-fluid formcon mb-5 bg2 rounded mx-2"> 
-            <div class="contact-form mb-4 col-lg-8 col-sm-6">
-             <h5 class="fs-6 p-3">Please fill out the following form with your complaint.<br>
-               We will review your request and follow up with you soon as possible.</h5>
-        
-               <form class="row g-3 formBox mb-50 mt-3 d-flex-justify-content-center p-2">
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">First Name</label>
-                  <input type="email" placeholder="First Name" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputPassword4" class="form-label">Last Name</label>
-                  <input type="password" placeholder="Last Name" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress" class="form-label">Email Address</label>
-                  <input type="text" class="form-control" id="inputAddress" placeholder="Email Address">
-                </div>
-                <div class="col-12">
-                  <label for="inputAddress2" class="form-label">Phone Number</label>
-                  <input type="text" class="form-control" id="inputAddress2" placeholder="Phone Number">
-                </div>
-                <div class="col-md-12">
-                  <label for="inputState" class="form-label">Reason For Complaint</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>Choose...</option>
-                    <option>...</option>
-                  </select>
-                </div>
-                <div class="col-md-2">
-                  <label for="inputZip" class="form-label">Please&nbsp;provide&nbsp;any&nbsp;details</label>
-                  <textarea placeholder="Please provide any details"></textarea>
-                </div>
-                <div >
-                  <!-- <button type="submit" class="btn btn-primary issbtn1 width-50">Submit</button> -->
-                  <button type="submit" class="btn btn-primary btn1 mb-5 shadow border-0">Submit</button>
-                  <button type="submit" class="btn btn-primary bg-white btn2 mb-5 shadow border-0">Cancel</button>
-                </div>
-              </form>
-            </div>
-          </div> 
+          <div class="contact-form mb-1 col-lg-8 col-sm-6">
+           <h5 class="fs-6 p-2">Please fill out the following form with your complaint. We will review your request and follow up with you <br> soon 
+            as possible.</h5>
+      
+             <form class="row g-3 formBox mb-50  d-flex-justify-content-center p-2">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">First Name</label>
+                <input type="email" placeholder="First Name" class="form-control text-muted" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Last Name</label>
+                <input type="password" placeholder="Last Name" class="form-control text-muted" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Email Address</label>
+                <input type="text" class="form-control text-muted" id="inputAddress" placeholder="Email Address">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Phone Number</label>
+                <input type="text" class="form-control text-muted" id="inputAddress2" placeholder="Phone Number">
+              </div>
+              <div class="col-md-12">
+                <label for="inputState" class="form-label">Reason For Complaint</label>
+                <select id="inputState" class="form-select">
+                  <option selected class="text-muted">Choose your reason for contacting us</option>
+                  <option>Late Supply</option>
+                  <option>Payment Status</option>
+                  <option>Product Quality</option>
+                  <option>Others</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Please&nbsp;provide&nbsp;any&nbsp;details</label>
+                <textarea placeholder="Please provide any details" class="issue-textre"></textarea>
+              </div>
+              <div >
+                <button type="submit" class="btn btn-primary btn1 mb-5 shadow border-0">Submit</button>
+                <button type="submit" class="btn btn-primary bg-white btn2 mb-5 shadow border-0 mx-2">Cancel</button>
+              </div>
+            </form>
+          </div>
+        </div>
 
           <div class="container-fluid">
             <div class="modal fade" id="modal1" role="dialog" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -159,7 +161,7 @@
                       </select>
                     </div>
                     <div class="">
-                    <a href="purchse2.html" type="button" class="btn btn-secondary continue-btn mt-4 mb-3 navbg continue-btn shadow p-2" width="" > Continue</a>
+                    <a href="purchseorder2.html" type="button" class="btn btn-secondary continue-btn mt-4 mb-3 navbg continue-btn shadow p-2" width="" > Continue</a>
                     </div>
                   </div>
                 </div>

@@ -38,8 +38,8 @@
                     <li><a class="dropdown-item text-white" href="Addnewuser.html">Add new user</a></li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown mx-2">
-                  <a class="nav-link" href="notifiction.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="notifiction.html" id="navbarDropdown" role="button" aria-expanded="false">
                       <i class="fa fa-bell text-white mx-2"></i>
                   </a>
                 </li>
@@ -116,9 +116,50 @@
                       General
                   </button>
                 </h2>
-                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div id="collapseOne" class="accordion-collapse collapse table-responsive" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                   <div class="accordion-body bg-light">
+                    <!-- <div class=""> -->
+                      <table class="table-bordered bg-white accord-tb" >
+                        <tbody>
+                          <tr>
+                            <td width="50">RFQ No: RFQ21002</td>
+                            <td class="bg2" width="50">Office Use:</td>
+                          </tr>
+                          <tr>
+                            <td contenteditable='true'>Date: 20/03/2023</td>
+                            <td contenteditable='true'>PO Number:</td>
+                          </tr>
+                          <tr>
+                            <td contenteditable='true'>Requester:</td>
+                            <td contenteditable='true'>Date:</td>
+                          </tr>
+                          <tr>
+                            <td contenteditable='true'>Unit:</td>
+                            <td contenteditable='true'>Requisition Status: New | Pending | Submitted | Compared | Finalized</td>
+                          </tr>
+                          <tr>
+                            <td contenteditable='true'>Department:</td>
+                            <td contenteditable='true'></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    <!-- </div> -->
+
                     <div class="table-responsive">
+                      <table class="table-bordered bg-white mt-5 accord-tb" >
+                        <tbody>
+                            <tr>
+                                <td class="bg2">Description</td>
+                            </tr>
+                            <tr style="height: 200px;">
+                                <td class="bg-white" contenteditable='true'></td>
+                            </tr>
+                        </tbody>
+                      </table>
+                    </div>  
+
+                    <!-- </div> -->
+                    <!-- <div class="table-responsive">
                       <table class="table-bordered bg-white mx-3 accord-tb" >
                         <tbody>
                           <tr>
@@ -146,7 +187,7 @@
                     </div>
     
                     <div class="table-responsive">
-                      <table class="table-bordered bg-white mt-5 responsive accord-tb mx-3" >
+                      <table class="table-bordered bg-white mt-5 accord-tb mx-3" >
                         <tbody>
                             <tr>
                                 <td class="bg2">Description</td>
@@ -156,7 +197,7 @@
                             </tr>
                         </tbody>
                       </table>
-                    </div>    
+                   </div>     -->
                   </div>
                 </div>
               </div>
@@ -167,10 +208,10 @@
                     RFQ Line
                   </button>
                 </h2>
-                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div id="collapseTwo" class="accordion-collapse collapse table-responsive" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                   <div class="accordion-body bg-light">
-                    <div class="table-responsive">
-                      <table class="table-bordered bg-white mx-3 accord-tb" >
+                    <!-- <div class="table-responsive"> -->
+                      <table class="table-bordered bg-white accord-tb" >
                         <tbody>
                           <thead class="bg3">
                               <th>QUALITY </th>
@@ -220,10 +261,9 @@
                           <td contenteditable='true'></td>
                           <td contenteditable='true'></td>
                         </tr>
-      
                       </tbody>
                         </table>
-                    </div>    
+                    <!-- </div>     -->
                   </div>
                 </div>
               </div>
@@ -247,7 +287,7 @@
                       </select>
                     </div>
                     <div class="">
-                    <a href="purchse2.html" type="button" class="btn btn-secondary continue-btn mt-4 mb-3 navbg continue-btn shadow p-2" width="" > Continue</a>
+                    <a href="purchseorder2.html" type="button" class="btn btn-secondary continue-btn mt-4 mb-3 navbg continue-btn shadow p-2" width="" > Continue</a>
                     </div>
                   </div>
                 </div>
@@ -270,7 +310,7 @@
                 </div>
               </div>
             </div>
-          </div>  
+         </div>  
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>

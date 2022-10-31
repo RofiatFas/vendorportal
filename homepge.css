@@ -78,7 +78,11 @@ html,body{
 	background-color: #EA3D2F4D;
 }
 .chart{
-    width:50%;max-width:200px;
+    width:50%;
+	max-width:200px;
+}
+.icon{
+	font-size: 20px !important;
 }
 
 
@@ -93,7 +97,12 @@ html,body{
 }
 .filter{
 	background-color: #DADADA;
-	border-radius: 2px solid  #09A8C5;
+	border-radius: 2px ;
+	border: 2px solid  #09A8C5;
+	height: 5vh;
+	color: #09A8C5;
+	font-weight: 600;
+	/* margin-top: -10px; */
 	/* border-color:; */
 }
 
@@ -143,6 +152,12 @@ html,body{
 		height: 100%;
 		overflow-x: hidden;
 	}
+	.issue-textre{
+		width: 35vh !important;
+	}
+	/* .comm{
+		margin-top: 50px !important;
+	} */
 	/* .reciept-table{
 		overflow-x: scroll;
 	}
@@ -162,10 +177,11 @@ html,body{
 /* Change Password Styling */
 .passwordform{
 	width: 50% !important;
+	margin-top: 100px !important;
 }
 .passwordform-btn{
 	justify-content: right;
-	margin-right: 500px !important;
+	margin-right: -20px !important;
 }
 
 /* Request2 Stylin */
@@ -177,7 +193,7 @@ html,body{
 }
 .accord-tb{
 	border: 1px solid #DADADA;
-	width: 98%;
+	width: 100%;
 }
 
 /* Submit Request2 Styling */
@@ -202,12 +218,21 @@ html,body{
 	border: 1px solid #708a8b !important;
   }
   .ship-text{
-	margin-left: 300px;
+	margin-left: 400px;
   }
   .vl{
-	border-left: 3px solid #d3e0b5;  
-	height: 338px; 
+	border-left: 3px solid #DADADA;  
+	height: 350px; 
 	margin-top: -10px;
+  }
+  .vl1{
+	height: 10px;
+  }
+  .vl2{
+	border-left: 3px solid #DADADA;  
+	height: 300px; 
+	margin-left: 80px;
+	margin-bottom: 50px !important;
   }
   .wi-40{
 	width: 40%;
@@ -229,7 +254,9 @@ html,body{
   .download-tb{
 	width: 96%;
   }
-
+  .ups-text{
+	margin-left: 70px;
+  }
 /* Modl Styling */
   .comment-modl{
 	max-width: 50% !important;
@@ -268,5 +295,12 @@ width: 100%;
 .view-btn{
 background-color: #1565D8 !important;
 width: 100%;
+}
+
+/* Issue Styling */
+.issue-textre{
+	width: 125vh; 
+	resize: none; 
+	height: 40vh;
 }
 
