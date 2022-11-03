@@ -187,13 +187,20 @@ html,body{
 	.purch-text{
 		margin-bottom: 100px !important;
 	}
+	.notifiction-text{
+		margin-top: 50px !important;
+	}
+	.crd-bg{
+		margin-top: 20px !important;
+	}
 
 }
 @media (max-width:280){
-	.purch-text{
+
+	/* .purch-text{
 		margin-bottom: 100px !important;
 		font-size: 12px !important;
-	}
+	} */
 	/* .purtbtn{
 		width: 10px !important;
 		font-size: 12px !important;
