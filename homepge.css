@@ -151,25 +151,10 @@ html,body{
 		height: 100%;
 		overflow-x: hidden;
 	}
-	.issue-textre{
-		width: 35vh !important;
-	}
 	.requestbid{
 		margin-left: -10px !important;
 		width: 17rem !important;
 	}
-	/* .bid1{
-		margin-left: -10px !important;
-	} */
-	/* .comm{
-		margin-top: 50px !important;
-	} */
-	/* .reciept-table{
-		overflow-x: scroll;
-	}
-	.supply{
-		overflow-x: scroll;
-	} */
 }
 @media (max-width: 820px){
 	.issue-textre{
@@ -185,33 +170,6 @@ html,body{
 		margin-top: 20px !important;
 	}
 
-}
-@media (max-width:280){
-
-	/* .purch-text{
-		margin-bottom: 100px !important;
-		font-size: 12px !important;
-	} */
-	/* .purtbtn{
-		width: 10px !important;
-		font-size: 12px !important;
-	} */
-	.bid-btns{
-		margin-bottom: -100px !important;
-	}
-	/* .bg2{
-		height: 10px !important;
-	} */
-	/* .purtbll{
-		height: 50vh !important;
-	} */
-	/* .purchord{
-		width: 100%;
-		overflow-x: scroll;
-	} */
-	/* .purcomm{
-		width: 100% !important;
-	} */
 }
 
 /* Compny Profile Styling */
@@ -326,9 +284,6 @@ html,body{
 	resize: none; 
 	height: 20vh;
 }
-/* .selectmodl{
-	width: 400px !important;
-} */
 .color-green{
 	color: #3ec94b ;
 }
@@ -350,10 +305,23 @@ width: 100%;
 
 /* Issue Styling */
 .issue-textre{
-	width: 125vh; 
-	resize: none; 
-	height: 40vh;
+	min-height: 40vh !important; 
+	resize:none;
 }
 
+/* horizontl line */
+hr.wybiline {
+	border-top: 3px dotted black !important;
+	background-color: transparent;
+	width: 90%;
+  }
 
 /* chrt */
+.chrtpie{
+    width: 70% !important
+  }
+  @media (max-width:600px) {
+    .chrtpie{
+      width: 100% !important;
+    }   
+}
