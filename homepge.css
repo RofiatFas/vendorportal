@@ -151,15 +151,16 @@ html,body{
 		height: 100%;
 		overflow-x: hidden;
 	}
+
 	.requestbid{
 		margin-left: -10px !important;
 		width: 17rem !important;
 	}
 }
 @media (max-width: 820px){
-	.issue-textre{
+	/* .issue-textre{
 		width: 32vh !important;
-	}
+	} */
 	.purch-text{
 		margin-bottom: 100px !important;
 	}
@@ -187,7 +188,7 @@ html,body{
 }
 .passwordform-btn{
 	justify-content: right;
-	margin-right: -20px !important;
+	/* margin-left: 515px !important; */
 }
 
 /* Request2 Stylin */
